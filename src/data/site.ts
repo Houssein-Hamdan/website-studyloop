@@ -1,6 +1,6 @@
 /** Public download of the signed release. Override with VITE_APK_URL if needed. */
 const defaultApkUrl =
-  'https://github.com/Houssein-Hamdan/studyloop-android/releases/download/v1.0.0/studyLoop.1.apk'
+  'https://github.com/Houssein-Hamdan/studyloop-android/releases/download/v1.0.1/app-release.apk'
 
 const apkUrl = import.meta.env.VITE_APK_URL?.trim() || defaultApkUrl
 
